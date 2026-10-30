@@ -51,15 +51,15 @@ markdown
 2.**安装依赖**
 请确保你的电脑已安装 Node.js。
 
-bash
-npm install
+    ```bash
+    npm install
 3.**配置 Key**
 在根目录新建 API_KEY.txt，填入你的 OpenRouter Key。
 
-4.**启动服务**
+4. **启动服务**
 
-bash
-node server.js
+    ```bash
+    node server.js
 打开浏览器访问 http://localhost:3000 即可。
 
 ## 🛠️ 技术栈
