@@ -48,21 +48,21 @@ markdown
    ```bash
    git clone https://github.com/vesper-Ye/frolova-ai.git
    cd frolova-ai
-安装依赖
+2.**安装依赖**
 请确保你的电脑已安装 Node.js。
 
 bash
 npm install
-配置 Key
+3.**配置 Key**
 在根目录新建 API_KEY.txt，填入你的 OpenRouter Key。
 
-启动服务
+4.**启动服务**
 
 bash
 node server.js
 打开浏览器访问 http://localhost:3000 即可。
 
-🛠️ 技术栈
+## 🛠️ 技术栈
 前端: 原生 HTML / CSS / JavaScript (无框架，轻量极速)
 
 后端: Node.js / Express
@@ -71,18 +71,18 @@ AI 核心: OpenRouter API (支持免费及付费模型切换)
 
 存储: 浏览器原生 LocalStorage (前端持久化)
 
-⚠️ 常见问题排雷
+## ⚠️ 常见问题排雷
 网页提示 401 Missing Authentication header：说明你的 API_KEY.txt 填错了，里面可能包含了中文或多余的空格，请确保只有一串 Key。
 
 黑框框提示 429 或 503：说明当前免费模型节点被挤爆了。请在网页右上角的设置里，切换为 openrouter/free（自动路由），或者等几分钟再试。
 
 如何彻底关闭：关闭网页后，直接关掉后台那个黑色的命令提示符窗口即可。
 
-⚖️ 免责声明
+## ⚖️ 免责声明
 角色“弗洛洛”及背景图片版权归《鸣潮》（库洛游戏）所有。
 
 本项目仅供个人学习、交流与娱乐使用，请勿用于任何商业盈利行为。
 
 请勿生成或传播违反法律法规及平台规定的内容。
 
-“如果你愿意，同行一段，我愿为你弹奏出一个不再有悲伤的乐章。”
+> *“如果你愿意，同行一段，我愿为你弹奏出一个不再有悲伤的乐章。”*
