@@ -1,0 +1,6 @@
+【使用说明】
+请将你的 OpenRouter API Key 粘贴到下方（以 sk-or-v1- 开头）。
+获取地址：https://openrouter.ai/keys
+粘贴后保存本文件，然后双击“一键启动.bat”即可开始。
+
+OPENROUTER_API_KEY_HEAR
